@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Expansion Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Dashboard & Component Expansion</h1>
+        </header>
+    </div>
+    <div class="alert alert-success" role="alert">
+        Data has been updated successfully!
+    </div>
+    <div id="columns">
+        <div id="card">
+            <h3>Input Form</h3>
+            <form>
+                <div id="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Enter name here">
+                </div>
+
+                <div id="form-group">
+                    <label for="role">Role:</label>
+                    <select id="role">
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+        <div id="card">
+            <h3>Modal Window</h3>
+            <a href="#open-modal" class="btn">Open Modal</a>
+            <div id="open-modal" class="modal-window">
+                <div>
+                    <a href="#" title="Close" class="modal-close"></a>
+                    <h2>Hello!</h2>
+                    <p>This modal window is built and styled using **CSS only** without any JavaScript.</p>
+                </div>
+                <div class="card">
+                    <h3>General Info</h3>
+                    <p>This column is designed to hold extra content, ensuring a clean 3-column layout on desktop
+                        screens.</p>
+                </div>
+            </div>
+        </div>
+</body>
+
+
+</html>
